@@ -39,20 +39,36 @@ function App() {
 
   const experiences = [
     {
-      title: "OAM | NashTech",
+      title: "FPT Software",
+      period: "August 2025 - Present",
+      description: "Participated in the fintech project",
+      responsibility: "Java developer.",
+      tech: ["Java", "Spring Boot", "Microservice", "AWS"],
+      teamSize: "10+"
+    },
+    {
+      title: "Freelancer - Meta AI",
+      period: "December 2024 - Present",
+      description: "Collaborated on AI training projects, focusing on enhancing model performance through evaluation, error tagging, response refinement, and code review. Worked on improving conversational quality, alignment, and multilingual capabilities for AI systems.",
+      responsibility: "AI trainer",
+      tech: ["AI Evaluation", "Prompt Engineering", "Natural Language Processing (NLP)", "Multilingual Analysis", "Code Review"],
+      teamSize: "10+"
+    },
+    {
+      title: "NashTech",
       period: "March 2025 - June 2025",
       description: "Participated in the Online Asset Management (OAM) project, a web application for managing company assets throughout their lifecycle.",
       responsibility: "Fullstack developer.",
       tech: ["Java", "Spring Boot", "ReactJs", "Tailwind"],
-      teamSize: 7
-    },
+      teamSize: "7"
+    },    
     {
-      title: "Customer App | TechCoop",
+      title: "TechCoop",
       period: "December 2024 - February 2025",
-      description: "Displaying dashboards of payment information with partners.",
+      description: "Displaying dashboards of payment information with partners in Customer App.",
       responsibility: "Developed frontend and modify the backend as needed.",
       tech: ["Golang", "SQLite", "HTMX", "AlpineJs", "Vite", "Tailwind"],
-      teamSize: 2
+      teamSize: "2"
     },
     {
       title: "TaskSmart",
@@ -60,14 +76,16 @@ function App() {
       description: "A team's project management website. Users can create and manage projects within individual workspaces, assign tasks to each member according to a workflow.",
       responsibility: "Fully developed the backend, partially worked on the frontend, built the entire microservices system and AI features.",
       tech: ["Java", "Spring Boot", "ReactJs", "TypeScript", "Microservices", "MongoDB"],
-      github: "https://github.com/hducduy21/TaskSmart"
+      github: "https://github.com/hducduy21/TaskSmart",
+      teamSize: "2"
     },
     {
-      title: "JobNet | NewAI",
+      title: "NewAI",
       period: "May 2023 - January 2024",
-      description: "A job search platform catering to job seekers and offering job postings for employers, integrated with smartcv.com.vn.",
+      description: "Participated in a job search platform catering to job seekers and offering job postings for employers, integrated with smartcv.com.vn.",
       responsibility: "Designed, developed, and implemented both frontend and backend.",
-      tech: ["Java", "Spring Boot", "ReactJs", "TypeScript", "Microservices", "Micro-frontends", "MongoDB"]
+      tech: ["Java", "Spring Boot", "ReactJs", "TypeScript", "Microservices", "Micro-frontends", "MongoDB"],
+      teamSize: "4"
     }
   ];
 
@@ -324,7 +342,7 @@ function App() {
             >
               <Phone className="w-8 h-8 mx-auto mb-4 text-white transition-transform duration-300 group-hover:scale-110" />
               <h3 className="mb-2 font-semibold text-white">Phone</h3>
-              <p className="text-blue-100">0898386550</p>
+              <p className="text-blue-100">+84898386550</p>
             </a>
             
             <a
